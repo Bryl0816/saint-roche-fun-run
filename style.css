@@ -95,135 +95,26 @@ header{
   margin-bottom:18px;
 }
 
-.field{
-  margin-bottom:18px;
-}
-.field label{
-  display:block;
-  font-size:13px;
-  font-weight:700;
-  color:var(--ink);
-  margin-bottom:6px;
-}
-.field .hint{
-  font-weight:400;
-  color:#8A8A80;
-  margin-left:4px;
-}
-.field input[type="text"]{
-  width:100%;
-  padding:12px 14px;
+.bib-copy{
   font-size:15px;
-  font-family:inherit;
-  color:var(--ink);
-  background:var(--bg);
-  border:1.5px solid var(--line);
-  border-radius:8px;
-  outline:none;
-}
-.field input[type="text"]:focus{
-  border-color:var(--orange);
+  color:#4B564D;
+  margin:0 0 22px;
 }
 
-.drop{
-  border:2px dashed var(--line);
-  border-radius:10px;
-  padding:32px 20px;
-  text-align:center;
-  cursor:pointer;
-  transition:border-color .15s ease, background .15s ease;
-}
-.drop:hover, .drop.drag{
-  border-color:var(--orange);
-  background:#FFF6F0;
-}
-.drop input{ display:none; }
-.drop-icon{
-  width:38px;height:38px;
-  margin:0 auto 10px;
-  stroke:var(--green);
-}
-.drop-text{
-  font-weight:700;
-  font-size:15px;
-  margin-bottom:4px;
-}
-.drop-sub{
-  font-size:13px;
-  color:#8A8A80;
-}
-
-.previews{
-  display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(72px, 1fr));
-  gap:10px;
-  margin-top:14px;
-}
-.thumb{
-  position:relative;
-  aspect-ratio:1;
-  border-radius:8px;
-  overflow:hidden;
-  border:1.5px solid var(--line);
-}
-.thumb img{
-  width:100%;height:100%;object-fit:cover;display:block;
-}
-.thumb button{
-  position:absolute;
-  top:3px;right:3px;
-  width:20px;height:20px;
-  border-radius:50%;
-  border:none;
-  background:rgba(28,43,34,0.75);
-  color:#fff;
-  font-size:12px;
-  line-height:1;
-  cursor:pointer;
-  display:flex;align-items:center;justify-content:center;
-}
-
-.submit-row{
-  margin-top:26px;
-  display:flex;
-  align-items:center;
-  gap:14px;
-  flex-wrap:wrap;
-}
-button.submit{
+.submit-link{
+  display:inline-block;
   font-family:'Bebas Neue', sans-serif;
   font-size:19px;
   letter-spacing:0.04em;
   background:var(--orange);
   color:#fff;
-  border:none;
+  text-decoration:none;
   padding:14px 30px;
   border-radius:9px;
-  cursor:pointer;
   transition:background .15s ease, transform .1s ease;
 }
-button.submit:hover{ background:var(--orange-dark); }
-button.submit:active{ transform:scale(0.98); }
-button.submit:disabled{
-  background:#D8D3C4;
-  cursor:not-allowed;
-}
-.count-note{
-  font-size:13px;
-  color:#8A8A80;
-}
-
-.form-embed{
-  border-radius:10px;
-  overflow:hidden;
-  border:1.5px solid var(--line);
-}
-.form-embed iframe{
-  width:100%;
-  height:600px;
-  border:none;
-  display:block;
-}
+.submit-link:hover{ background:var(--orange-dark); }
+.submit-link:active{ transform:scale(0.98); }
 
 /* how it works */
 .how{
