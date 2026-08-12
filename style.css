@@ -37,9 +37,6 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-  background:var(--card);
-  border:1.5px solid var(--line);
-  border-radius:8px;
   padding:10px;
 }
 .logo-slot img{
@@ -185,4 +182,5 @@ footer{
 @media (max-width:560px){
   .steps{ grid-template-columns:1fr; }
   .bib{ padding:28px 20px 24px; }
+  .logos{ grid-template-columns:repeat(3, 1fr); }
 }
